@@ -3,10 +3,31 @@ version: '3.8'
 services:
   node_backend:
     container_name: projek
-    image: projek:0.0.2
+    image: projek:0.0.6
     build:
       context: .
     ports:
       - "3001:3001"
     environment:
       - EXTERNAL_PORT=3001
+      - PGDATABASE=projek_db
+      - PGUSER=faris
+      - PGPASSWORD=12345
+      # - PGHOST=projek_db connect ke container database
+      - PGHOST=projek_db
+    depends_on:
+      - projek_db
+  projek_db:
+    container_name: projek_db
+    image: "postgres:12"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=faris
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_DB=projek_db
+    volumes:
+      - nps_data:/var/lib/posgresql/data
+
+volumes:
+  nps_data: {}
