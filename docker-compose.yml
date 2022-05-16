@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  node_backend:
+    container_name: projek
+    image: projek:0.0.2
+    build:
+      context: .
+    ports:
+      - "3001:3001"
+    environment:
+      - EXTERNAL_PORT=3001
