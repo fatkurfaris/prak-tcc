@@ -1,0 +1,28 @@
+.NavH {
+    background-color: #e9eefa;
+    height: 10%;
+
+}
+
+.text1 {
+    padding-top: 9px;
+    color: #FF8834;
+    opacity: 100%;
+}
+
+.text2 {
+    color: #FF8834;
+    /* padding-top: 7px; */
+}
+
+.Tombol {
+    background-color: #FF8834;
+    border-radius: 8px;
+    border-color: #FF8834;
+    /* padding-bottom: 7px; */
+
+}
+
+.space {
+    margin-top: 12px;
+}

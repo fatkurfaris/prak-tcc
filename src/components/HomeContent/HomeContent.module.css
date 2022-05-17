@@ -1,0 +1,91 @@
+.h1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 145px;
+    padding-bottom: 32px;
+    margin-top: 55px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    /* background-color: white;
+    border-color: rgba(242, 153, 74, 1);
+    border: 3px solid;
+    color: rgba(242, 153, 74, 1); */
+    /* margin-right: 5px;
+    margin-left: 5px; */
+
+}
+
+.tes {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: rgba(115, 123, 125, 1);
+}
+
+.imgg {
+    margin-top: -149px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+}
+
+.text2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.text3 {
+    color: rgba(115, 123, 125, 1);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.text4 {
+    color: rgba(242, 153, 74, 1);
+    padding-bottom: 35px;
+}
+
+.mid {
+    text-align: center;
+    align-content: center;
+
+}
+
+.midB {
+    padding-top: 55px;
+    text-align: center;
+    align-content: center;
+
+}
+
+.butin {
+    margin-top: 55px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    border-color: rgba(242, 153, 74, 1);
+    border: 3px solid;
+    color: rgba(242, 153, 74, 1);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.butin:hover {
+    background-color: rgba(242, 153, 74, 1);
+    /* color: rgba(242, 153, 74, 1); */
+    border-color: rgba(242, 153, 74, 1);
+}
+
+Button:hover {
+    background-color: rgba(242, 153, 74, 1);
+    color: white;
+}
+
+.farisIMG {
+    border-radius:180px;
+}

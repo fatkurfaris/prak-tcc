@@ -1,0 +1,90 @@
+.space {
+    padding-top: 125px;
+}
+
+.space2 {
+    padding-top: 30px;
+}
+
+.space3 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: rgba(208, 208, 208, 1);
+}
+
+.space4 {
+    margin-bottom: 50px;
+}
+
+.mid {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text1 {
+    color: rgba(255, 136, 52, 1);
+    /* padding-bottom: ; */
+}
+
+.text2 {
+    text-align: center;
+    /* padding-top: 50px; */
+    padding-bottom: 39px;
+}
+
+.text3:link {
+    color: rgba(255, 136, 52, 1);
+    
+}
+
+.text3:hover {
+    color: blue;
+}
+
+.text4{
+    text-decoration: none;
+    color:white;
+}
+
+.text4:link {
+    color: rgba(255, 136, 52, 1);
+    
+}
+
+.text4:hover {
+    color: white;
+    /* background-color:black; */
+}
+.Butsub {
+    text-align: center;
+    position: relative;
+    padding-right: 186px;
+    padding-left: 186px;
+    background-color: rgba(55, 63, 65, 1);
+    border: rgba(55, 63, 65, 1);
+}
+
+.butGo {
+    color: black;
+    background-color: white;
+    border-color: grey;
+    /* padding-right: 150px;
+    padding-left: 150px; */
+}
+
+.butGo:hover {
+    background-color: white;
+    color: blue;
+}
+
+.ButDaf {
+    background-color: rgba(55, 63, 65, 1);
+    border: rgba(55, 63, 65, 1);
+}
+
+.google {
+    /* padding-left: 10px; */
+    margin-right: 7px;
+    margin-top: -3px;
+}
