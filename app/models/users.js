@@ -21,6 +21,14 @@ const User = db.define('users',{
         type: Sequelize.STRING,
         allowNull: false,
     },
+    phone:{
+        type: Sequelize.INTEGER,
+        allowNull: true,
+    },
+    address:{
+        type: Sequelize.STRING,
+        allowNull: true,
+    },
 });
 
 module.exports = User; 

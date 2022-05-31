@@ -27,6 +27,8 @@ exports.createOne = async (req,res,next)=>{
             username: req.body.username,
             email: req.body.email,
             password: req.body.password,
+            phone: req.body.phone,
+            address: req.body.address,
         };
 
         try {
@@ -48,6 +50,8 @@ exports.updateOne = async (req,res,next)=>{
             username: req.body.username,
             email: req.body.email,
             password: req.body.password,
+            phone: req.body.phone,
+            address: req.body.address,
         };
 
         try {

@@ -3,13 +3,13 @@ version: '3.8'
 services:
   node_backend:
     container_name: projek
-    image: projek:0.0.6
+    image: projek:0.0.8
     build:
       context: .
     ports:
-      - "3001:3001"
+      - "8000:8000"
     environment:
-      - EXTERNAL_PORT=3001
+      - EXTERNAL_PORT=8000
       - PGDATABASE=projek_db
       - PGUSER=faris
       - PGPASSWORD=12345
