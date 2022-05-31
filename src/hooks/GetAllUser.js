@@ -6,7 +6,7 @@ import swal from 'sweetalert';
 export default function GetAllUser() {
     const [state,setState] = useState(null)
     
-    const URL = `http://localhost:3001/users`
+    const URL = `http://localhost:8000/users`
     let history = useNavigate();
 
     useEffect(() => {

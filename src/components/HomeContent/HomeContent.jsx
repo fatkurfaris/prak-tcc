@@ -3,6 +3,9 @@ import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import style from './HomeContent.module.css'
 import gambar from "../../images/HomeDefault.png"
 import gambar1 from "../../images/faris.png"
+import gambar2 from "../../images/eky.jpeg"
+import gambar3 from "../../images/abi.jpeg"
+import gambar4 from "../../images/rega.jpeg"
 // import gambar2 from "../../img/lingkaran.png"
 // import gambar3 from "../../img/obeng.png"
 
@@ -54,23 +57,23 @@ export default function HomeDefContent() {
                         </Col>
                         <Col>
                             <div className={style.mid}>
-                                <div > <Image className={style.farisIMG} src={gambar1} width="80%" /></div>
-                                <h6 className={style.text2}> Nama </h6>
-                                <h6 className={style.text4}>Nim</h6>
+                                <div > <Image className={style.farisIMG} src={gambar2} width="80%" /></div>
+                                <h6 className={style.text2}> ekky ramadhan </h6>
+                                <h6 className={style.text4}>123190124</h6>
                             </div>
                         </Col>
                         <Col>
                             <div className={style.mid}>
-                                <div > <Image className={style.farisIMG} src={gambar1} width="80%" /></div>
-                                <h6 className={style.text2}> Fatkur Rizal Rochmadian Putra </h6>
-                                <h6 className={style.text4}>123190130</h6>
+                                <div > <Image className={style.farisIMG} src={gambar3} width="80%" /></div>
+                                <h6 className={style.text2}> abigail rakha bhagaskara</h6>
+                                <h6 className={style.text4}>123190144</h6>
                             </div>
                         </Col>
                         <Col>
                             <div className={style.mid}>
-                                <div > <Image className={style.farisIMG} src={gambar1} width="80%" /></div>
-                                <h6 className={style.text2}> Nama </h6>
-                                <h6 className={style.text4}>Nim</h6>
+                                <div > <Image className={style.farisIMG} src={gambar4} width="80%" /></div>
+                                <h6 className={style.text2}>  rega muhammad  </h6>
+                                <h6 className={style.text4}>123190138</h6>
                             </div>
                         </Col>
                     </Row>

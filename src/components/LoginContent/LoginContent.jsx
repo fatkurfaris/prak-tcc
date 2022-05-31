@@ -179,11 +179,11 @@ export default function LoginContent() {
                             <div className="d-grid gap-2" >
                                 <Button Link className={style.ButDaf} size="lg" onClick={handleSubmit}>
                                     {/* <Link to={`/Login/HomeLogin`} > MASUK </Link> */}
-                                    <Link to={`/CekLogin`} className={style.text4}>Masuk</Link>
+                                    <Link to={`/HomeLogin`} className={style.text4}>Masuk</Link>
                                 </Button>
                             </div>
                         </Form>
-                        <div className={style.space2}><h6>Lupa Kata Sandi? <Link to={`/CekLogin`} className={style.text3}>Klik Disini</Link></h6></div>
+                        <div className={style.space2}><h6>Lupa Kata Sandi? <Link to={`/HomeLogin`} className={style.text3}>Klik Disini</Link></h6></div>
                         <div className={style.mid}><h6 className={style.space3}>----------------Atau Masuk Dengan----------------</h6></div>
                         <div className="d-grid gap-2">
                             <Button className={style.butGo} size="lg" >

@@ -1,14 +1,16 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import HomeLoginContent from '../../components/HomeLogin/HomeLoginContent'
 import NavbarLogin from '../../components/NavbarLogin/NavbarLogin'
-import Todos from '../../components/TodosContent/TodosContent'
+import ProfileContent from '../../components/ProfilesContent/ProfileContent'
 
-export default function HomeLogin() {
+export default function Profiles() {
     return (
         <>
+
             <NavbarLogin />
-            <HomeLoginContent />
+            <Container>
+                <ProfileContent />
+            </Container>s
         </>
     )
 }

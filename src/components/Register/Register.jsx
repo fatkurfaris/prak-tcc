@@ -14,6 +14,8 @@ const dataRegis = {
     usernameRegis: "",
     passwordRegis: "",
     emailRegis: "",
+    // phoneRegis: "",
+    // addressRegis: "",
 };
 const baseErrors = {
     usernameRegis: "",
@@ -74,17 +76,18 @@ export default function Regis() {
         let benar = true
         const URL = `http://localhost:8000/users`
 
-
         await Axios.post(URL,
             {
-                username: "faris2",
-                email: "faris2@",
-                password: "dars",
+                username: data.usernameRegis,
+                email: data.emailRegis,
+                password: data.passwordRegis,
+                // phone: "",
+                // address: "",
             }
         )
-        console.log("ini url", handleSubmit)
+            // console.log("ini url", handleSubmit)
             .then(res => {
-                console.log(res);
+                // console.log(res);
                 if (res) {
                     console.log("berhasil")
                     isTrue = true;
@@ -115,7 +118,7 @@ export default function Regis() {
             })
 
         if (isTrue) {
-            console.log()
+            // console.log()
             // dispatch(login(res))
             history("/Login");
             swal({
@@ -131,10 +134,6 @@ export default function Regis() {
             });
             // e.preventDefault();
         }
-
-
-
-
     }
 
 
@@ -209,6 +208,7 @@ export default function Regis() {
                                     DAFTAR
                                 </Button>
                             </div>
+                            {/* <div className={style.space2}><h6>Sudah Punya Akun? <link rel="stylesheet" href="/Login" className={style.text3} /></h6></div> */}
                             <div className={style.space2}><h6>Sudah Punya Akun? <Link to={`/Login`} className={style.text3}>Login Disini</Link></h6></div>
                         </Form>
                     </Col>

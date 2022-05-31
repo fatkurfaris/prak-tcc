@@ -1,0 +1,35 @@
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+/* 
+.iconProfile{
+} */
+
+.space{
+    margin-top: 50px;
+}
+
+.space2{
+    margin-left: 20px;
+}
+
+.space3{
+    margin-top: 10px;
+}
+
+.buttonC{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonHapus{
+    margin-left: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.buttonEdit{
+    padding: 5px 20px 5px 20px;
+}
